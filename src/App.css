@@ -1,12 +1,16 @@
+:root{
+    ---optimize-color: #d2ebfa;
+}
+
 .img-poke{
     width: 100%;
     max-width: 300px;
 }
-
 .input-search{
     width: 100%;
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.145);
+    padding: .6rem;
     outline: none;
 }
 .input-search:focus{
@@ -25,4 +29,16 @@
 }
 .stats-poke span{
     border-radius: 1px solid #000;
+}
+.optimize{
+    background-color: var(---optimize-color);
+}
+@media(max-width: 468px){
+    .search-pokemon{
+        flex-direction: column;
+    }
+    .stats-poke{
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
