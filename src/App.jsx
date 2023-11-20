@@ -36,18 +36,17 @@ function App() {
             </div>
             <img src={pokemonData.sprites.other.dream_world.front_default} className='img-poke' alt={pokemonData.name} />
             <div className="d-flex gap-4">
-              <h3><span class="badge bg-secondary">{pokemonData.types[0].type.name}</span></h3>
-              <h3><span class="badge bg-secondary">{pokemonData.types[1].type.name}</span></h3>
+              <h3><span class="badge bg-secondary text-uppercase">{pokemonData.types[0].type.name}</span></h3>
             </div>
             <div className="stats-poke">
                <div class="stat">
-                  <span class="border border-black p-2 rounded bg-danger-subtle">HP: {pokemonData.stats[0].base_stat}</span>
+                  <span class="border border-black p-2 rounded bg-danger-subtle text-uppercase">Hp: {pokemonData.stats[0].base_stat}</span>
               </div>
               <div class="stat">
-                  <span class="border border-black p-2 rounded bg-danger">ATK: {pokemonData.stats[1].base_stat}</span>
+                  <span class="border border-black p-2 rounded bg-danger-subtle text-uppercase">Atk: {pokemonData.stats[1].base_stat}</span>
               </div>
               <div class="stat">
-                  <span class="border border-black p-2 rounded bg-info-subtle">DEF: {pokemonData.stats[2].base_stat}</span>
+                  <span class="border border-black p-2 rounded bg-info-subtle text-uppercase">Def: {pokemonData.stats[2].base_stat}</span>
               </div>
             </div>
           </div>

@@ -15,3 +15,14 @@
 .poke-name{
     text-transform: capitalize;
 }
+.stats-poke{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+}
+.stats-poke span{
+    border-radius: 1px solid #000;
+}
