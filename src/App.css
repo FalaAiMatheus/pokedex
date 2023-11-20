@@ -2,3 +2,16 @@
     width: 100%;
     max-width: 300px;
 }
+
+.input-search{
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.145);
+    outline: none;
+}
+.input-search:focus{
+    border: 1px solid #000;
+}
+.poke-name{
+    text-transform: capitalize;
+}
