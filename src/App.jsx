@@ -29,8 +29,9 @@ function App() {
         </div>
         {pokemonData && (
           <div>
+            <h2>{pokemonData.id}</h2>
             <h2>{pokemonData.name}</h2>
-            <img src={pokemonData.sprites.front_default} alt={pokemonData.name} />
+            <img src={pokemonData.sprites.other.dream_world.front_default} className='img-poke' alt={pokemonData.name} />
           </div>
         )}
       </div>
